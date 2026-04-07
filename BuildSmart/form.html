@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry Form - BuildSmart Hardware</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body class="homepage">
+
+<header>
+    <nav>
+        <ul class="navlinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section class="why-us">
+        <h1 class="texte">Enquiry Form</h1>
+    </section>
+
+    <section class="form-section">
+
+        <form id="contactForm">
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+
+            <label>Customer Type:</label>
+            <input type="radio" name="type" value="homeowner"> Homeowner
+            <input type="radio" name="type" value="contractor"> Contractor
+
+            <label>Services Interested In:</label>
+            <input type="checkbox"> Tools
+            <input type="checkbox"> Materials
+            <input type="checkbox"> Electrical
+
+            <label for="location">Location:</label>
+            <select id="location">
+                <option>Port of Spain</option>
+                <option>San Fernando</option>
+                <option>Arima</option>
+            </select>
+
+            <button type="submit" class="buildsmart-button">Submit</button>
+
+        </form>
+
+        <p id="formMessage"></p>
+
+    </section>
+
+</main>
+
+<footer class="buildsmart-footer">
+    <div class="footer-bottom">
+        &copy; 2026 BuildSmart Hardware Co.
+    </div>
+</footer>
+
+</body>
+</html>
