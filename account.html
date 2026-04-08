@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account - BuildSmart</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="account.js"></script>
+</head>
+
+<script src="auth.js"></script>
+
+<body class="homepage">
+
+<!-- HEADER -->
+<header>
+    <nav>
+        <ul class="navlinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- MAIN -->
+<main>
+
+    <section class="why-us">
+        <h1 class="texte">Create Your BuildSmart Account</h1>
+    </section>
+
+    <section class="form-section">
+
+        <form id="accountForm">
+
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+
+            <label for="confirm">Confirm Password:</label>
+            <input type="password" id="confirm" required>
+
+            <button type="submit" class="buildsmart-button">Create Account</button>
+
+        </form>
+
+        <p id="accountMessage"></p>
+
+    </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="buildsmart-footer">
+    <div class="footer-bottom">
+        &copy; 2026 BuildSmart Hardware Co.
+    </div>
+</footer>
+
+</body>
+</html>
